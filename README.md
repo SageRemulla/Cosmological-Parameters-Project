@@ -2,6 +2,7 @@ Calculating Cosmological Parameters Using Type IA Supernovae
 
 This project closely follows this paper: https://iopscience.iop.org/article/10.3847/2041-8213/ab04fa#apjlab04fas3-4
 From the paper, I used the given data from both Dark Energy Survey, as well as the Harvard-Smithsonian Center for Astrophysics surveys. Everything else has been coded by me.
+  - The apjab08a0t12_mrt file is the data used from the paper.
 
 We first bin the data to account for noise.
 We calculate the chi square values of each point compared to different cosmological models, and optimize the cosmological parameters to find a model that best fits the binned data.
